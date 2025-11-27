@@ -1,0 +1,32 @@
+  div {
+    border-width:5px;
+    border-color:crimson;
+    border-style:solid;
+    height:100px;
+    width:100px;
+    text-align:right;
+    background-color:blueviolet;
+    border-radius:10px;
+  }
+
+
+   div{
+        width:100px;
+        height:100px;
+        margin:25px;
+        padding:25px;
+        display:inline-block;
+    }
+    
+    .box1{
+        background-color: plum;
+    }
+    .box2{
+      background-color:lightgreen;
+    }
+    .box3{
+      background-color:pink;
+    }
+    
+
+  

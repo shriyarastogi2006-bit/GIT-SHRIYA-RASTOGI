@@ -1,4 +1,4 @@
-/* Basic Reset and Typography */
+
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -15,19 +15,17 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Container Styling */
+
 .example-container {
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 30px;
-    overflow: hidden; /* This acts as a 'clearfix' for the container itself */
-}
+    overflow: hidden; 
 
-/* Box Styling and Floating */
 .box {
     width: 80px;
     height: 80px;
-    line-height: 80px; /* Vertically centers the text */
+    line-height: 80px; 
     text-align: center;
     color: white;
     font-weight: bold;
