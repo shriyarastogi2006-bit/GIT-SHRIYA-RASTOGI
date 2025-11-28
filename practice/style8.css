@@ -9,6 +9,8 @@
 .red
 {
       background-color:rgb(226, 43, 43);
+      position:relative;
+      bottom:20px;
 
 }
 .green{
@@ -43,4 +45,16 @@ a{
 }
 footer{
     color:black;
+    position:relative;
+    bottom:70px;
+}
+#box4{
+  background-image:url(london.jpg);
+  background-size:250px;
+  height: 250px;
+  width:250px;
+  position:relative;
+  left:60px;
+  bottom:50px;
+  
 }
