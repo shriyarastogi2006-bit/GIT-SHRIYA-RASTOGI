@@ -1,0 +1,53 @@
+body {
+    text-align:center;
+}
+div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border:solid;
+    border-color: black;
+}
+#container{
+    height:500px;
+    width:600px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-end;
+     flex-wrap:wrap-reverse;
+
+    
+    
+}
+#box1{
+    background-color:rgb(61, 36, 5);
+     align-self:flex-end;
+     height:50px;
+     width:70px;
+     position: relative;
+     right:130px;
+     
+     
+
+}
+#box2{
+    background-color:rgb(125, 78, 7);
+    align-self:flex-end;
+    height:90px;
+    width:75px;
+    
+}
+#box3{
+    background-color:rgb(156, 97, 9);
+    
+}
+#box4{
+    background-color:rgb(80, 49, 4);
+}
+#box5{
+    background-color:rgb(198, 119, 1);
+    height:200px;
+    width:150px;
+    
+}
