@@ -1,3 +1,107 @@
-h1{
-    text-align:center;
+.body
+{   margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(203, 205, 206);
+    
+}
+#heading
+{
+    padding: 20px;
+    font-size: 200%;
+    text-align: center;
+
+}
+.box
+{
+   /* display: flex; 
+   justify-content: space-between; */
+   display: grid;
+   /* enables grid */
+   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+   gap: 20px;
+   padding: 20;
+   max-width: 900px;
+   /* height: 600px; */
+   margin: auto;
+}
+.card
+{   
+    /* display: inline-block flex; */
+    background-color: white;
+    border: solid rgb(103, 103, 107) 2px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 4px rgb(0 0 0 / 20%);
+
+
+    /* display: inline-block;
+    padding: 20px 40px;
+    margin: 20px 10px;
+    gap: 40px;
+    font-size: 150%;
+    text-align: center;
+    border: solid rgb(103, 103, 107) 2px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px rgb(0 0 0 / 20%);
+    width: 19%;
+    max-width: 400px;
+    height: 570px;
+    align-items: center;
+    bottom: 0; */
+}
+.card:hover
+{
+    transform: scale(1.05); 
+}
+.card img{
+    width: 90%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.header
+{
+    margin: 15px 0px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.conent
+{
+    font-size: 18px;
+    color: rgb(131, 132, 133);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.price
+{
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.btn {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    height: 50px;
+    font-weight: bold;
+    width: 150px;
+    
+    
+
+}
+.btn:hover {
+    background-color: #0056b3;
 }

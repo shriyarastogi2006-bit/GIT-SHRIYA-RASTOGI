@@ -33,3 +33,8 @@
     height:100px;
     
 }
+.card:hover .id_logo
+{
+    background-color:blue;
+    color:white;
+}

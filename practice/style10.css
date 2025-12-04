@@ -1,0 +1,28 @@
+ul{
+    background-color:rgb(176, 74, 37);
+    display:flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color:rgb(46, 1, 1);
+    background-color:blueviolet;
+}
+li{
+    
+    list-style-type:none;
+    display:inline;
+}
+.outer{
+    height:400px;
+    width:400px;
+    background-color:rgb(99, 58, 5);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.inner{
+    height:200px;
+    width:200px;
+    background-color:blanchedalmond;
+}
